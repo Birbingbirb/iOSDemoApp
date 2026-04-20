@@ -13,9 +13,11 @@ struct ContentView: View {
             Image(systemName: "up_arrow")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Yippie!!")
-            Text("Yipppie!!")
-            Text("Yippppie!!")
+            VStack {
+                Text("Yippie!!")
+                Text("Yipppie!!")
+                Text("Yippppie!!")
+            }
         }
         .padding()
     }
