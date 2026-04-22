@@ -27,6 +27,9 @@ struct ContentView: View {
                 Image(systemName: "down_arrow")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
+                Image(systemName: "down_arrow")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
             }
         }
         .padding()
