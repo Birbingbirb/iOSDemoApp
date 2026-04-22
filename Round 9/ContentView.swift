@@ -20,9 +20,11 @@ struct ContentView: View {
                 Text("Yipppppppie!!")
                 Text("Yipppppppppppie!!")
             }
-            Image(systemName: "down_arrow")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            HStack{
+                Image(systemName: "down_arrow")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+            }
         }
         .padding()
     }
